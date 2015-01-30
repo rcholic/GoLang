@@ -1,0 +1,16 @@
+package main
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+func main() {
+	//var m map[string]Vertex
+
+	var m = make(map[string]Vertex)
+	m["SRA International"] = Vertex{40.6843, -75.39987}
+
+	fmt.Println(m["SRA International"].Lat, m["SRA International"].Long)
+}
+
