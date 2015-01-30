@@ -9,8 +9,8 @@ func main() {
 	//var m map[string]Vertex
 
 	var m = make(map[string]Vertex)
-	m["SRA International"] = Vertex{40.6843, -75.39987}
+	m["International"] = Vertex{40.6843, -75.39987}
 
-	fmt.Println(m["SRA International"].Lat, m["SRA International"].Long)
+	fmt.Println(m["International"].Lat, m["International"].Long)
 }
 
