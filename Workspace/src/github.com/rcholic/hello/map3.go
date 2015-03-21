@@ -11,4 +11,7 @@ func main() {
     fmt.Println("length of map is: ", len(myMap))
 
     fmt.Println("map is: ", myMap[1])
+    _, prs := myMap[3]  //not existing key
+
+    fmt.Println("prs is: ", prs)
 }
